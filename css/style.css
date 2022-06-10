@@ -40,7 +40,7 @@
 }
 p {
   font-family: "OpenSans-Regular";
-  color: #666666;
+  color: #667667;
   font-size: 18px;
 }
 
@@ -57,6 +57,7 @@ body {
 }
 #gtco-main-nav {
   padding: 20px 0;
+  transition: border 3s;
 }
 #gtco-main-nav .navbar-brand {
   font-size: 36px;
@@ -76,7 +77,7 @@ body {
 #gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
   width: 25px;
   height: 2px;
-  background-color: #fff;
+  background-color: #667;
   margin: 5px 0;
   transition: 0.4s;
   display: block;
@@ -96,7 +97,7 @@ body {
 #gtco-main-nav .navbar-nav li a {
   font-family: "OpenSans-Regular";
   font-size: 18px;
-  color: #666666;
+  color: #667667;
   padding: 5px 15px !important;
   text-transform: uppercase;
 }
@@ -122,7 +123,7 @@ body {
     color: #1d3ede;
   }
 }
-#gtco-main-nav::after {
+/* #gtco-main-nav::after {
   position: absolute;
   content: "";
   height: 600px;
@@ -199,7 +200,7 @@ body {
     width: 100%;
     height: 390px;
   }
-}
+} */
 
 .gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
   background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
@@ -583,7 +584,7 @@ body {
 }
 .gtco-testimonials .card h5 span {
   font-size: 18px;
-  color: #666666;
+  color: #667667;
   font-family: "OpenSans-Regular";
 }
 .gtco-testimonials .card p {
@@ -632,7 +633,7 @@ body {
 .gtco-features-list .media-body {
   font-family: "OpenSans-Regular";
   font-size: 16px;
-  color: #666666;
+  color: #667667;
   padding-right: 20px;
 }
 .gtco-features-list .media-body h5 {
@@ -679,7 +680,7 @@ body {
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev, .gtco-news .owl-carousel .owl-nav .owl-next {
   font-size: 120px;
-  color: #666666;
+  color: #667667;
   position: absolute;
 }
 .gtco-news .owl-carousel .owl-nav .owl-prev {
@@ -721,6 +722,7 @@ body {
 
 #gtco-footer {
   padding-bottom: 20px;
+  margin-top: 100px;
 }
 #gtco-footer h4 {
   font-family: "Lato-Medium";
@@ -757,13 +759,13 @@ body {
   font-size: 20px;
 }
 #gtco-footer .company-nav a, #gtco-footer .services-nav a {
-  color: #666666;
+  color: #667667;
   margin: 0;
   padding: 0;
 }
 #gtco-footer .follow-us-nav a {
   padding: 0 10px;
-  color: #666666;
+  color: #667667;
 }
 @media (max-width: 385px) {
   #gtco-footer .follow-us-nav a {

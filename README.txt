@@ -1,15 +1,8 @@
+# Quandry
 
-TITLE: 
-Solution - 100% Fully Responsive Free HTML5 Bootstrap 4 Template
+A website template.
 
-AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co and FreeHTML5.co
-Website: http://gettemplates.co/ http://freehtml5.co/
-Released
-
-
-
-CREDITS:
+Dependencies:
 
 Bootstrap
 http://getbootstrap.com/

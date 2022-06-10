@@ -1,11 +1,10 @@
 ;(function () {
-
     'use strict';
-
     var carousels = function() {
         $(".owl-carousel1").owlCarousel(
             {
                 loop:true,
+                startPosition: 1,
                 center: true,
                 margin:0,
                 responsiveClass:true,
@@ -72,6 +71,17 @@
 }());
 
 // menu toggle button
-function myFunction(x) {
+function menuToggle(x) {
     x.classList.toggle("change");
 }
+
+// add border bottom to sticky nav when page is scrolled down
+var header = $("#gtco-main-nav");
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+
+    if (scroll == 0)
+        header.removeClass("border-bottom");
+    else
+        header.addClass("border-bottom");
+});
